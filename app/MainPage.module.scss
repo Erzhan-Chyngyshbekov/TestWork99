@@ -1,0 +1,29 @@
+@import "@/styles/variables";
+@import "@/styles/animations";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: $light-color;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: $primary-color;
+  text-shadow: 1px 1px 2px rgb(0 0 0 / 10%);
+
+  animation: fadeInDown 0.5s ease;
+}
+
+.weatherCard {
+  margin-top: 2rem;
+  animation: fadeIn 0.5s ease-in-out;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgb(0 0 0 / 15%);
+    transition: all 0.3s ease;
+  }
+}
