@@ -22,26 +22,37 @@
 
    ```bash
    git clone https://github.com/Erzhan-Chyngyshbekov/TestWork99.git
-
-
    ```
 
 2. **Перейдите в папку проекта**
+
+   ```bash
    сd TestWork99
+   ```
 
 3. **Установите зависимости**
+
+   ```bash
    npm install
+   ```
 
    # или
 
+   ```bash
    yarn install
+   ```
 
 4. **Запустите проект в режиме разработки**
+
+   ```bash
    npm run dev
+   ```
 
    # или
 
+   ```bash
    yarn dev
+   ```
 
 5. **Откройте в браузере**
    http://localhost:3000
